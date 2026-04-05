@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+}
+
+html, body {
+    background-color: black;
+    width: 100%;
+    min-width: fit-content;
+}
+
+
+header {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 50px;
+    background-image: url(photo/Gemini_Generated_Image_c8ylmwc8ylmwc8yl-removebg-preview.png);
+    background-color: black;
+}
+
+header img {
+    height: 70px;
+    width: auto;
+}
+
+.menu {
+    font-size: 24px;
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    transition: text-shadow 0.2s ease, color 0.2s ease;
+}
+
+.menu a:hover {
+    color: #fff;
+    text-shadow:
+        0 0 5px #95d600,
+        0 0 15px #95d600,
+        0 0 30px #95d600,
+        0 0 60px rgba(149, 214, 0, 0.5);
+}
+
+.primary-btn {
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: #95d600;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cache {
+    background-color: black;
+    padding-top: 110px;
+}
+
+/*NEWSLETTER*/
+
+.newsletter-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 110px);
+    background-color: black;
+}
+
+.newsletter-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    border: 2px solid #95d600;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 30px rgba(149, 214, 0, 0.3);
+    max-width: 400px;
+}
+
+.newsletter-card h2 {
+    color: #95d600;
+    margin-bottom: 10px;
+}
+
+.newsletter-card p {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.mail-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+.primary-btn {
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: #95d600;
+    color: #ffffff;
+}
+
+.back-link {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    color: white;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 50px 1px;
+    border-top: 5px solid #95d600;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow:
+        1px -5px 15px rgba(149, 214, 0, 0.6),
+        1px -10px 30px rgba(149, 214, 0, 0.4),
+        1px -20px 50px rgba(149, 214, 0, 0.2);
+}
+
+.footer-left {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-end;
+    height: 90px;
+}
+
+.x {
+    width: 23px;
+    padding: 14px;
+    border-radius: 100%;
+    background: #95d600;
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.media .f1,.f2 {
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20px;
+    padding: 14px;
+    border-radius: 100%;
+    background: #95d600;
+}
+
+.info5 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info5 a {
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 90px;
+    font-size: 20px;
+}
+
+.info p {
+    color: white;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.newsletter p {
+    display: flex;
+    color: white;
+    font-size: 27px;
+}
+
+.haut-fleche{
+    margin-bottom: -20px;
+}
+
+.third-btn {
+    display: flex;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: #95d600;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.third-btn:hover {
+    filter: brightness(1.1);
+}

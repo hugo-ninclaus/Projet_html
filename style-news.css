@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+    height: auto;
+}
+
+html, body {
+    background-color: black;
+    width: 100%;
+    min-width: fit-content;
+}
+
+
+header {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 50px;
+    background-image: url(photo/Gemini_Generated_Image_c8ylmwc8ylmwc8yl-removebg-preview.png);
+    background-color: black;
+}
+
+header img {
+    height: 70px;
+    width: auto;
+}
+
+.menu {
+    font-size: 24px;
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    transition: text-shadow 0.2s ease, color 0.2s ease;
+}
+
+.menu a:hover {
+    color: #fff;
+    text-shadow:
+        0 0 5px #95d600,
+        0 0 15px #95d600,
+        0 0 30px #95d600,
+        0 0 60px rgba(149, 214, 0, 0.5);
+}
+
+.menu a.active {
+    text-shadow: 3px 2px #95D600;
+    padding-bottom: 5px;
+}
+
+.primary-btn {
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: #95d600;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cache {
+    background-color: black;
+    padding-top: 110px;
+}
+
+/*SECTION1 NEWS*/
+
+.title h1{
+    font-family: "Almendra", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    color: #95d600;
+    padding-bottom: 15px;
+    width: 1000px;
+    text-shadow: 2px 2px rgba(149, 214, 0, 0.5);
+    text-decoration: none;
+}
+
+.devinci-container {
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    padding: 250px 100px;
+    padding-bottom: 80px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.devinci-banner {
+    width: 100%;
+    height: 500px;
+    background-image: url("photo/ple_lonard_de_vinci_cover.jfif");
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.devinci-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid #95d600;
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+.devinci-box p {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+/*SECTION2 NEW*/
+
+.lando-container {
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    padding: 250px 100px; 
+    padding-top: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.lando-banner {
+    width: 100%;
+    height: 500px;
+    background-image: url("photo/lando.jpg.webp");
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lando-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid #95d600;
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+.lando-box p {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.title h2{
+    font-family: "Almendra", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    color: #95d600;
+    padding-bottom: 15px;
+    width: 1000px;
+    text-shadow: 2px 2px rgba(149, 214, 0, 0.5);
+    text-decoration: none;
+}
+
+.title a{
+    text-decoration: none;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 50px 1px;
+    border-top: 5px solid #95d600;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 1px -5px 15px rgba(149, 214, 0, 0.6),
+                1px -10px 30px rgba(149, 214, 0, 0.4), 
+                1px -20px 50px rgba(149, 214, 0, 0.2);
+}
+
+.footer-left{
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-end;
+    height: 90px;
+}
+
+.x{
+    width: 23px;
+    padding: 14px;
+    border-radius: 100%;
+    background: #95d600;
+}
+
+.media{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.media .f1,.f2{
+    display : block;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20px;
+    padding: 14px;
+    border-radius: 100%;
+    background: #95d600;
+}
+
+.info5{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info5 a{
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 90px;
+    font-size: 20px;
+}
+
+.info p{
+    color: white;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.newsletter p{
+    display: flex;
+    color: white;
+    font-size: 27px;
+}
+
+.haut-fleche{
+    margin-bottom: -20px;
+}
+
+.third-btn {
+    display: flex;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: #95d600;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.third-btn:hover{
+    filter: brightness(1.1);
+}
